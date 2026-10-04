@@ -4,6 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>パシャっち プライバシーポリシー</title>
+<link rel="alternate" hreflang="en" href="https://umechanhika.github.io/pashacchi-privacy/en/">
+<script>
+  // 日本語以外の言語のブラウザでは英語版を開く。?lang=ja を付けると日本語版のまま表示する
+  if (!/^ja\b/i.test(navigator.language || "") && !/[?&]lang=ja\b/.test(location.search)) {
+    location.replace("en/");
+  }
+</script>
 <style>
   :root { --bg: #FBF6F1; --ink: #4A3B36; --soft: #7A6A64; --accent: #B85A49; --card: #FFFFFF; }
   body { margin: 0; background: var(--bg); color: var(--ink); font-family: "Hiragino Maru Gothic ProN", "Zen Maru Gothic", sans-serif; line-height: 1.8; }
@@ -14,10 +21,12 @@
   .meta { color: var(--soft); font-size: 0.9rem; }
   .summary { background: var(--card); border-radius: 16px; padding: 16px 20px; margin-top: 20px; }
   a { color: var(--accent); }
+  .lang { text-align: right; font-size: 0.9rem; margin: 0 0 8px; }
 </style>
 </head>
 <body>
 <main>
+  <p class="lang"><a href="en/" lang="en">English</a></p>
   <h1>パシャっち プライバシーポリシー</h1>
   <p class="meta">制定日：2026年10月4日</p>
 
